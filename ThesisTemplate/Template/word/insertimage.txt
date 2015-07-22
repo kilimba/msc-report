@@ -1,0 +1,56 @@
+\begin{figure}[!ht] 
+\centering
+\includegraphics[width=2.8in, height=1.8in]{./Chapter1/images/dra}% [width=6in, height=4in]{our}
+\caption{Global Array Memory Hierarchy}
+\label{figdra}
+\end{figure}
+
+
+
+
+\begin{algorithm}[ht]
+%\SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+%\dontprintsemicolon
+\SetKwInOut{Input}{input}\SetKwInOut{Output}{output}
+\Input{$Key\ v \langle 0 \rangle ,\ value\ v, O2node\ node $}
+\Output{$true$ for success $false$ otherwise}
+\BlankLine
+\Begin {
+\BlankLine
+    $newLeaf \longleftarrow new\, leaf()$\;
+    $newNode \longleftarrow new\, internalNode()$\;
+    $midpoint \longleftarrow \dfrac{m}{2}$ \;
+    $where$ $m$  is the order of the tree\;
+    $j \longleftarrow 0$ \;
+    \BlankLine
+    \For{$i\leftarrow midpoint$ \KwTo $m-1$}{
+    	\BlankLine
+    	$newLeaf[j] \longleftarrow leaf.remove(i)$\;
+    	$j++$ \;
+    	\BlankLine
+    }
+    \BlankLine
+    \emph{insert "key, value" into the appropriate leaf} \;
+    \BlankLine
+    $newNode.key \longleftarrow newLeaf.key[0] $\;
+	$newLeaf.parent \longleftarrow newNode$ \;
+    $leaf.parent \longleftarrow newNode$ \;
+    \BlankLine
+    \emph{reset forward and backward links of leaf nodes}\;
+    \BlankLine
+}
+\caption{splitInsert($Key\ v \langle 0 \rangle$, $value\ v$, $O2node$ node) \label{IRsplit}}
+\end{algorithm}
+
+
+		\If{$pIndic.lable = \emptyset$}	{
+		   \BlankLine
+		   $pIndic.label \longleftarrow NULL$\;
+		   \BlankLine
+        }
+        \Else 
+        {
+        	\BlankLine
+           $node\gets node.right$\;
+           \BlankLine
+        } 

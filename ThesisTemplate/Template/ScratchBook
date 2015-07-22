@@ -1,0 +1,35 @@
+1. Parallel Implementation of Endmember Extraction
+Algorithms From Hyperspectral Data
+
+2. Parallel morphological/neural processing of hyperspectral images
+using heterogeneous and homogeneous platforms
+
+3. An experimental comparison of parallel algorithms
+for hyperspectral analysis using heterogeneous and
+homogeneous networks of workstations
+
+4. A new parallel tool for classification of remotely sensed imagery
+
+GPU.....
+1. Fast determination of the number of endmembers for real-time hyperspectral unmixing on GPUs
+2. Parallel Hyperspectral Unmixing on GPUs
+3. Real-Time Implementation of the Pixel Purity Index Algorithm for Endmember Identification on GPUs
+
+
+\textit{(a) Row major realisation}\\
+%\begin{multline}
+ \hspace*{20mm} $q=\mathcal{F}(i_{0},i_{1},i_{2} ,..., i_{k-1})= s_{0} + i_{0}\mathit{C}_{0} + i_{1}\mathit{C}_{1} + ...+ i_{k-1}\mathit{C}_{k-1}$\label{eqn:01} \\
+%\end{multline}
+ \hspace*{20mm} where 
+\[C_{j} = \prod^{k-1}_{r=j+1} \mathbb{U}_{r}, \]  
+\begin{center} $ 0 \leq j \leq k-1 $ and $ C_{k-1} = 1 $ \end{center}
+\textit{(b) Column major realisation}\\
+%\begin{multline}
+\hspace*{20mm} $q= \mathcal{F}(i_{0},i_{1},i_{2} ,..., i_{k-1}) 
+ = s_{0} + i_{0}C_{0} + i_{1}C_{1} + ...+ i_{k-1}C_{k-1}$\label{eqn:02}  \\ 
+%\end{multline}
+\hspace*{20mm} where 
+\[C_{j} = \prod^{j-1}_{r=0} \mathbb{U}_{r}, \]
+\begin{center}  
+$ 0 \leq j \leq k-1 $ and $ C_{k-1} = 1$ 
+\end{center}
