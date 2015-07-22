@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.21)  22 JUL 2015 02:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.21)  22 JUL 2015 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1750,6 +1750,15 @@ Package hyperref Info: Option `pdffitwindow' set `true' on input line 29.
 
 LaTeX Warning: Label `scope' multiply defined.
 
+
+LaTeX Warning: Label `fig1' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig3' multiply defined.
+
 (./Appendix1.aux))
 \openout1 = `TemplateThesis.aux'.
 
@@ -1922,7 +1931,7 @@ LaTeX Info: Redefining \nameref on input line 7.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-<images/logo.png, id=107, 240.9pt x 263.98625pt>
+<images/logo.png, id=127, 240.9pt x 263.98625pt>
 File: images/logo.png Graphic file (type png)
  <use images/logo.png>
 Package pdftex.def Info: images/logo.png used on input line 12.
@@ -2238,7 +2247,7 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 7--7
 [11
 
 ] [12]
-<./Chapter4/images/scienceportaloverview.png, id=252, 949.5475pt x 455.7025pt>
+<./Chapter4/images/scienceportaloverview.png, id=277, 949.5475pt x 455.7025pt>
 File: ./Chapter4/images/scienceportaloverview.png Graphic file (type png)
 
 <use ./Chapter4/images/scienceportaloverview.png>
@@ -2250,7 +2259,7 @@ put line 29.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
-<./Chapter4/images/operationsportaloverview.png, id=257, 939.51pt x 310.15875pt
+<./Chapter4/images/operationsportaloverview.png, id=282, 939.51pt x 310.15875pt
 >
 File: ./Chapter4/images/operationsportaloverview.png Graphic file (type png)
  <use ./Chapter4/images/operationsportaloverview.png>
@@ -2258,7 +2267,7 @@ Package pdftex.def Info: ./Chapter4/images/operationsportaloverview.png used on
  input line 42.
 (pdftex.def)             Requested size: 375.79733pt x 124.0613pt.
 
-<./Chapter4/images/communityportaloverview.png, id=258, 990.70125pt x 462.72874
+<./Chapter4/images/communityportaloverview.png, id=283, 990.70125pt x 462.72874
 pt>
 File: ./Chapter4/images/communityportaloverview.png Graphic file (type png)
  <use ./Chapter4/images/communityportaloverview.png>
@@ -2299,7 +2308,38 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 6--6
 
 [16
 
-]) (./Chapter6/chapter6.tex [17]
+] [17] [18]
+<./Chapter5/images/imageplots.png, id=315, 894.34125pt x 204.765pt>
+File: ./Chapter5/images/imageplots.png Graphic file (type png)
+
+<use ./Chapter5/images/imageplots.png>
+Package pdftex.def Info: ./Chapter5/images/imageplots.png used on input line 31
+.
+(pdftex.def)             Requested size: 357.73016pt x 81.90454pt.
+ [19 <./Chapter5/images/imageplots.png>]
+<./Chapter5/images/shinymp1.png, id=324, 1358.07375pt x 647.41875pt>
+File: ./Chapter5/images/shinymp1.png Graphic file (type png)
+
+<use ./Chapter5/images/shinymp1.png>
+Package pdftex.def Info: ./Chapter5/images/shinymp1.png used on input line 52.
+(pdftex.def)             Requested size: 407.42526pt x 194.22711pt.
+
+<./Chapter5/images/shinymp2.png, id=326, 1354.05875pt x 668.4975pt>
+File: ./Chapter5/images/shinymp2.png Graphic file (type png)
+
+<use ./Chapter5/images/shinymp2.png>
+Package pdftex.def Info: ./Chapter5/images/shinymp2.png used on input line 61.
+(pdftex.def)             Requested size: 406.22076pt x 200.5508pt.
+ [20 <./Chapter5/images/shinymp1.png>]
+[21 <./Chapter5/images/shinymp2.png>]
+<./Chapter5/images/indicatorfile.png, id=341, 619.31375pt x 261.97874pt>
+File: ./Chapter5/images/indicatorfile.png Graphic file (type png)
+
+<use ./Chapter5/images/indicatorfile.png>
+Package pdftex.def Info: ./Chapter5/images/indicatorfile.png used on input line
+ 94.
+(pdftex.def)             Requested size: 309.65611pt x 130.98904pt.
+) (./Chapter6/chapter6.tex [22 <./Chapter5/images/indicatorfile.png>]
 Chapter 6.
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2329,9 +2369,9 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 6--6
 [][]  
  []
 
-[18
+[23
 
-]) (./Chapter7/Conclusion.tex [19]
+]) (./Chapter7/Conclusion.tex [24]
 Chapter 7.
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -2361,9 +2401,9 @@ Overfull \hbox (10.88788pt too wide) in paragraph at lines 6--6
 [][]  
  []
 
-[20
+[25
 
-]) [21]
+]) [26]
 \openout2 = `Appendix1.aux'.
 
  (./Appendix1.tex
@@ -2382,7 +2422,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 5.
 
-) [22
+) [27
 
 
 ] (./TemplateThesis.bbl)
@@ -2392,7 +2432,7 @@ Package minitoc Info: I0009
 \openout4 = `TemplateThesis.maf'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
- [23
+ [28
 
 
 ]
@@ -2401,36 +2441,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
 Package rerunfilecheck Info: File `TemplateThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 630EC414C4D086F0C1F7630676447D49;1527.
+(rerunfilecheck)             Checksum: 920C5F52ED928D33FDF3A220FE2E7D08;1925.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34442 strings out of 493304
- 606272 string characters out of 6139871
- 880671 words of memory out of 5000000
- 36656 multiletter control sequences out of 15000+600000
- 109783 words of font info for 151 fonts, out of 8000000 for 9000
+ 34510 strings out of 493304
+ 607558 string characters out of 6139871
+ 881029 words of memory out of 5000000
+ 36687 multiletter control sequences out of 15000+600000
+ 113359 words of font info for 159 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
  59i,12n,77p,10396b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/p
-ublic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb>
-Output written on TemplateThesis.pdf (31 pages, 632427 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
+}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a
+.pfb>
+Output written on TemplateThesis.pdf (36 pages, 907964 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
- 29417 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 29989 words of extra memory for PDF output out of 35830 (max. 10000000)
 
